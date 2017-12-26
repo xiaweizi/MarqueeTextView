@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">MarqueeTextView</string>
+    <string name="pause">暂停</string>
+    <string name="restart">重新开始</string>
+    <string name="start">开始</string>
+    <string name="stop">停止</string>
+    <string name="string1">我是一直滚动、滚动时间为2s和无滚动延迟的跑马灯。我是一直滚动、滚动时间为2s和无滚动延迟的跑马灯。</string>
+    <string name="string2">我是一直滚动、滚动时间为10s和无滚动延迟的跑马灯。我是一直滚动、滚动时间为10s和无滚动延迟的跑马灯。</string>
+    <string name="string3">我是一直滚动、滚动时间为30s和1s滚动延迟的跑马灯。我是一直滚动、滚动时间为30s和1s滚动延迟的跑马灯。</string>
+    <string name="string4">我是只滚动一次、滚动时间为10s和无滚动延迟的跑马灯。我是只滚动一次、滚动时间为10s和无滚动延迟的跑马灯。</string>
 </resources>
