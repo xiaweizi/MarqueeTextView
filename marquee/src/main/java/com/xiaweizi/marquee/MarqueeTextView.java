@@ -97,7 +97,7 @@ public class MarqueeTextView extends TextView {
             setScroller(mScroller);
         }
         int scrollingLen = calculateScrollingLen();
-        final int distance = scrollingLen - (getWidth() + mXPaused);
+        final int distance = scrollingLen -  mXPaused;
         final int duration = (Double.valueOf(mRollingInterval * distance * 1.00000
                 / scrollingLen)).intValue();
         if (mFirst) {
@@ -154,9 +154,7 @@ public class MarqueeTextView extends TextView {
         Rect rect = new Rect();
         String strTxt = getText().toString();
         tp.getTextBounds(strTxt, 0, strTxt.length(), rect);
-        int scrollingLen = rect.width() + getWidth();
-        rect = null;
-        return scrollingLen;
+        return rect.width();
     }
 
     @Override
